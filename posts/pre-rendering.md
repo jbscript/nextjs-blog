@@ -1,11 +1,17 @@
 ---
-title: "Two Forms of Pre-rendering"
-date: "2020-01-01"
+title: "Tips for Learning Next.js"
+date: "2023-04-24"
 ---
 
-Next.js has two forms of pre-rendering: **Static Generation** and **Server-side Rendering**. The difference is in **when** it generates the HTML for a page.
+Tips for Learning Next.js
+-------------------------
 
-- **Static Generation** is the pre-rendering method that generates the HTML at **build time**. The pre-rendered HTML is then _reused_ on each request.
-- **Server-side Rendering** is the pre-rendering method that generates the HTML on **each request**.
+If you're interested in learning Next.js, here are some tips based on my experience:
 
-Importantly, Next.js lets you **choose** which pre-rendering form to use for each page. You can create a "hybrid" Next.js app by using Static Generation for most pages and using Server-side Rendering for others.
+1.  Start with the basics: Make sure you understand the fundamentals of React before diving into Next.js. This will make it easier to understand how Next.js builds on top of React.
+
+2.  Use the documentation: The Next.js documentation is very helpful and provides a lot of guidance on how to use the framework. Take the time to read through it and experiment with the examples.
+
+3.  Join the community: There are a lot of resources and support available online for Next.js developers. Joining the community can help you get answers to your questions and learn from other developers.
+
+4.  Build something: The best way to learn Next.js is to actually build something with it. Start with a simple project
