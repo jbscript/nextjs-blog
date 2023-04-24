@@ -1,19 +1,26 @@
 ---
-title: "When to Use Static Generation v.s. Server-side Rendering"
-date: "2020-01-02"
+title: "Learning Next.js: My Experience"
+date: "2023-04-24"
 ---
 
-We recommend using **Static Generation** (with and without data) whenever possible because your page can be built once and served by CDN, which makes it much faster than having a server render the page on every request.
+Learning Next.js: My Experience
+===============================
 
-You can use Static Generation for many types of pages, including:
+As a developer, I'm always looking for new ways to improve my skills and keep up with the latest technologies. Recently, I decided to learn Next.js, a popular React framework for building server-side rendered web applications. In this article, I'll share my experience learning Next.js and some tips for anyone else who's interested in getting started.
 
-- Marketing pages
-- Blog posts
-- E-commerce product listings
-- Help and documentation
+Why Next.js?
+------------
 
-You should ask yourself: "Can I pre-render this page **ahead** of a user's request?" If the answer is yes, then you should choose Static Generation.
+First, let's talk about why I chose to learn Next.js. As a React developer, I was already familiar with the basics of building client-side applications with React. However, I wanted to explore the benefits of server-side rendering, which can improve performance and SEO. Next.js is a great choice for this because it's built on top of React and provides an easy-to-use framework for server-side rendering.
 
-On the other hand, Static Generation is **not** a good idea if you cannot pre-render a page ahead of a user's request. Maybe your page shows frequently updated data, and the page content changes on every request.
+Getting Started
+---------------
 
-In that case, you can use **Server-Side Rendering**. It will be slower, but the pre-rendered page will always be up-to-date. Or you can skip pre-rendering and use client-side JavaScript to populate data.
+To get started with Next.js, I first needed to install it. This was a simple process using Node.js and the `npx create-next-app` command. This command sets up a new Next.js project with all the necessary files and dependencies.
+
+Once my project was set up, I started exploring the Next.js documentation. I found the documentation to be very thorough and easy to understand, with plenty of examples and explanations of key concepts. I also found the Next.js community to be very helpful, with lots of resources and support available online.
+
+Learning Curve
+--------------
+
+As with any new technology, there was a learning curve involved in getting up to speed with Next.js. One of the biggest challenges for me was understanding how server-side rendering worked and how to set up my components to work with it. However, once I got the hang of it, I found that Next.js made it very easy to build performant and SEO-friendly web applications.
